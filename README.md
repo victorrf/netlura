@@ -48,5 +48,5 @@ Projeto clone da tela de seleção de perfis da Netflix com suporte a alternânc
 - **localStorage**: Persistência das configurações
 - **Event Listeners**: Monitora mudanças no sistema
 
-Divirta-se! 🖥️
-
+Divirta-se! 🖥️ <br>
+https://victorrf.github.io/netlura/
