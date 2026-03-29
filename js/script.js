@@ -85,11 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const nome = nomeE1 ? nomeE1.textContent.trim() : '';
             let imgSrc = imgE1 ? imgE1.getAttribute('src') : '';
 
-            
-            if (imgSrc && !imgSrc.startsWith('http') && !imgSrc.startsWith('/') && !imgSrc.startsWith('..')) {
-                imgSrc = '../' + imgSrc;
-            }
-
             try {
                 localStorage.setItem('perfilAtivoNome', nome);
                 localStorage.setItem('perfilAtivoImagem', imgSrc);
