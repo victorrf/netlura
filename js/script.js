@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (!item) return;
 
             const nomeE1 = item.querySelector('.nome-profile');
-            const imgE1 = item.querySelector('img');
+            const imgE1 = item.querySelector('.profile-icon');
 
             const nome = nomeE1 ? nomeE1.textContent.trim() : '';
             let imgSrc = imgE1 ? imgE1.getAttribute('src') : '';
