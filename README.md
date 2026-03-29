@@ -2,11 +2,12 @@
 
 Projeto clone da tela de seleção de perfis da Netflix com suporte a alternância entre temas escuro e claro.
 
-![Preview](assets/sample.png)
+![Preview](assets/sample-baixo.gif)
 
 ## 📝 Principais funcionalidades
 
 - **Alternância Dark/Light**: Troca imediata entre modos escuro e claro.
+- **Persistência**: O tema escolhido é salvo no `localStorage`.
 - **Tema padrão**: Tema escuro como padrão de inicialização.
 - **Responsivo**: Layout adaptável para todas as telas.
 
@@ -15,12 +16,13 @@ Projeto clone da tela de seleção de perfis da Netflix com suporte a alternânc
 1. Clone ou baixe este repositório.
 2. Abra o arquivo `index.html` no navegador ou use uma extensão como Live Server.
 3. Clique no botão de alternância (toggle) no canto superior direito para trocar o tema.
+4. O tema será lembrado nas próximas visitas
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica
 - **CSS3**: Variáveis, media queries, transições
-- **JavaScript**: Lógica de alternância de tema e do conteúdo da página de catálogo. 
+- **JavaScript**: Lógica de alternância de tema e persistência, e do conteúdo da página de catálogo. 
 
 ## 📁 Estrutura do Projeto
 
@@ -41,6 +43,10 @@ Projeto clone da tela de seleção de perfis da Netflix com suporte a alternânc
 │       └── Carousel.js     # Componente de carousel que organiza os cards por categoria
 └── assets/                 # Arquivos de mídia (imagens, ícones, etc.)
 ```
+
+## ↗️ Funcionalidades JavaScript
+- **localStorage**: Persistência das configurações
+- **Event Listeners**: Monitora mudanças no sistema
 
 Divirta-se! 🖥️
 
